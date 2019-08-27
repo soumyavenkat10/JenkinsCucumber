@@ -1,0 +1,88 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Facebook login page",
+        "description": "",
+        "id": "facebook;facebook-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 750659,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Load the facebook page",
+            "match": {
+              "location": "FbLoginStep.load_the_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12217,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "We need to enter username and password",
+            "match": {
+              "location": "FbLoginStep.we_need_to_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11729,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "click login button",
+            "match": {
+              "location": "FbLoginStep.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8308,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Once got home validate success are failure",
+            "match": {
+              "location": "FbLoginStep.once_got_home_validate_success_are_failure()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook",
+    "description": "",
+    "id": "facebook",
+    "keyword": "Feature",
+    "uri": "Feature/FackbookLogin.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
